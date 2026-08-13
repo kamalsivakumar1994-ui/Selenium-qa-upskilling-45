@@ -11,7 +11,7 @@ public class MultiLoginTest {
 		String[] usernames = {"standard_user","invalid_user",""};
 		String[] passwords = {"secret_sauce", "wrong_pass", ""};
 		
-		for (int i = 0; i <= usernames.length; i++) {
+		for (int i = 0; i < usernames.length; i++) {
 
 			WebDriver driver = new ChromeDriver();
 			driver.get("https://www.saucedemo.com/");
