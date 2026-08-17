@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day12.SoftAssertTest">
+      <class name="day14.DataProviderLoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="dashboardChecksWithSoftAssert"/>
           <include name="setUp"/>
+          <include name="loginTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- day12.SoftAssertTest -->
+      </class> <!-- day14.DataProviderLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

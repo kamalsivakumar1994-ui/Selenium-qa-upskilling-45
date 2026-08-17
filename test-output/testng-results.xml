@@ -1,53 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-17T11:26:38 CEST" name="Default suite" finished-at="2026-08-17T11:26:38 CEST" duration-ms="81">
+  <suite started-at="2026-08-17T12:42:53 CEST" name="Default suite" finished-at="2026-08-17T12:43:03 CEST" duration-ms="9420">
     <groups>
     </groups>
-    <test started-at="2026-08-17T11:26:38 CEST" name="Default test" finished-at="2026-08-17T11:26:38 CEST" duration-ms="81">
-      <class name="day13.LifecycleDemo">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:day13.LifecycleDemo@470734c3]" started-at="2026-08-17T11:26:38 CEST" name="beforeSuite" finished-at="2026-08-17T11:26:38 CEST" duration-ms="12" status="PASS">
+    <test started-at="2026-08-17T12:42:53 CEST" name="Default test" finished-at="2026-08-17T12:43:03 CEST" duration-ms="9420">
+      <class name="day14.DataProviderLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:day14.DataProviderLoginTest@55a147cc]" started-at="2026-08-17T12:42:53 CEST" name="setUp" finished-at="2026-08-17T12:42:56 CEST" duration-ms="2953" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:day13.LifecycleDemo@470734c3]" started-at="2026-08-17T11:26:38 CEST" name="beforeClass" finished-at="2026-08-17T11:26:38 CEST" duration-ms="1" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:day14.DataProviderLoginTest@55a147cc]" started-at="2026-08-17T12:42:56 CEST" name="loginTest" data-provider="loginData" finished-at="2026-08-17T12:42:57 CEST" duration-ms="625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day13.LifecycleDemo@470734c3]" started-at="2026-08-17T11:26:38 CEST" name="beforeMethod" finished-at="2026-08-17T11:26:38 CEST" duration-ms="1" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day14.DataProviderLoginTest@55a147cc]" started-at="2026-08-17T12:42:57 CEST" name="tearDown" finished-at="2026-08-17T12:42:57 CEST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testOne()[pri:1, instance:day13.LifecycleDemo@470734c3]" started-at="2026-08-17T11:26:38 CEST" name="testOne" finished-at="2026-08-17T11:26:38 CEST" duration-ms="10" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:day14.DataProviderLoginTest@55a147cc]" started-at="2026-08-17T12:42:57 CEST" name="setUp" finished-at="2026-08-17T12:42:59 CEST" duration-ms="2142" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day13.LifecycleDemo@470734c3]" started-at="2026-08-17T11:26:38 CEST" name="afterMethod" finished-at="2026-08-17T11:26:38 CEST" duration-ms="1" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:day14.DataProviderLoginTest@55a147cc]" started-at="2026-08-17T12:42:59 CEST" name="loginTest" data-provider="loginData" finished-at="2026-08-17T12:43:00 CEST" duration-ms="629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day13.LifecycleDemo@470734c3]" started-at="2026-08-17T11:26:38 CEST" name="beforeMethod" finished-at="2026-08-17T11:26:38 CEST" duration-ms="1" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day14.DataProviderLoginTest@55a147cc]" started-at="2026-08-17T12:43:00 CEST" name="tearDown" finished-at="2026-08-17T12:43:00 CEST" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testTwo()[pri:2, instance:day13.LifecycleDemo@470734c3]" started-at="2026-08-17T11:26:38 CEST" name="testTwo" finished-at="2026-08-17T11:26:38 CEST" duration-ms="1" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:day14.DataProviderLoginTest@55a147cc]" started-at="2026-08-17T12:43:00 CEST" name="setUp" finished-at="2026-08-17T12:43:02 CEST" duration-ms="1759" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwo -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day13.LifecycleDemo@470734c3]" started-at="2026-08-17T11:26:38 CEST" name="afterMethod" finished-at="2026-08-17T11:26:38 CEST" duration-ms="1" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:day14.DataProviderLoginTest@55a147cc]" started-at="2026-08-17T12:43:02 CEST" name="loginTest" data-provider="loginData" finished-at="2026-08-17T12:43:02 CEST" duration-ms="506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:day13.LifecycleDemo@470734c3]" started-at="2026-08-17T11:26:38 CEST" name="afterClass" finished-at="2026-08-17T11:26:38 CEST" duration-ms="2" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day14.DataProviderLoginTest@55a147cc]" started-at="2026-08-17T12:43:02 CEST" name="tearDown" finished-at="2026-08-17T12:43:03 CEST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:day13.LifecycleDemo@470734c3]" started-at="2026-08-17T11:26:38 CEST" name="afterSuite" finished-at="2026-08-17T11:26:38 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- day13.LifecycleDemo -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- day14.DataProviderLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
